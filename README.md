@@ -17,7 +17,7 @@ In this project we implement two variants of the Lucas-Kanade template tracker, 
 
 ## Usage
 
-- Run the python files in the current directory which contains all the codes. 
+- Run the Python scripts in the current directory which contains all the codes
   - For Bolt video sequence run 
   
     ```
