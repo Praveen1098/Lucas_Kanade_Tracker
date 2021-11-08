@@ -1,44 +1,40 @@
-# ENPM-673-Project-4-Lucas-Kanade-Tracker
+# Lucas-Kanade Tracker
 
-## DESCRIPTION:
-
-The aim of this project is to implement the Lucas-Kanade (LK) template tracker. Then to evaluate the code on three video sequences from the Visual Tracker benchmark database: featuring a car on the road, a baby fighting a dragon, and Usain bolt’s race. Python Version: 3.x Packages Required:
+In this project we implement two variants of the Lucas-Kanade template tracker, the Forward-Additive Lucas-Kanade template tracker and Inverse Compositional Lucas-Kanade template tracker on three video sequences featuring a car on the road, a baby fighting a dragon, and Usain bolt's race.
 
 ## DEPENDENCIES: 
 
-- numpy
-- openCV
+- Python 3.X
+- NumPy
+- OpenCV
 - glob
 
 ## Authors
 
+- [Praveen](https://github.com/Praveen1098)
 - [Arjun Srinivasan](https://github.com/aarjunsrinivasan)
 - [Arun Kumar](https://github.com/akdhandy)
-- [Praveen](https://github.com/Praveen1098)
 
-## FILE TREE:
+## Usage
 
-Code | | ----- python scripts | ----- data (already consists of template images, additionally place your dataset here) Report.pdf README.md
+- Run the python files in the current directory which contains all the codes. 
+  - For Bolt video sequence run 
+  
+    ```
+    python3 boltTracker.py 
+    ```
+  - For Car video sequence run 
+  
+    ```
+    python3 carTracker.py 
+    ```
+  - For Baby with Dragon video sequence run 
+  
+    ```
+    python3 babyTracker.py
+    ```
 
-## INSTRUCTION:
-
-To run the codes:
-
-Check the file paths given in the code and create the dataset folders accordingly.
-Run the python files in the current directory which contains all the codes. 
-For Bolt video sequence run 
-```
-python3 bolt.py 
-```
-For Car video sequence run 
-```
-python3 car.py 
-```
-For Baby with Dragon video sequence run 
-```
-python3 baby.py
-```
-
-Additional References:
-
-For working demo visit the below Video link: https://www.youtube.com/watch?v=26D1Jrjf4hQ&list=PLhW-cg34lEh0PNiGCkWEyM831WF444-xT
+# Demo
+- https://www.youtube.com/watch?v=UpBPeG8boPw&list=PLhW-cg34lEh0PNiGCkWEyM831WF444-xT&index=3
+- https://www.youtube.com/watch?v=0vNuHXkot0Q&list=PLhW-cg34lEh0PNiGCkWEyM831WF444-xT&index=4
+- https://www.youtube.com/watch?v=vvmjIK0Mn4s&list=PLhW-cg34lEh0PNiGCkWEyM831WF444-xT&index=5
